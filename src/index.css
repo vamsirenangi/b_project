@@ -1,0 +1,59 @@
+body{
+  background-color: #000000;
+  padding: 50px;
+}
+.toptext{
+  text-align: center;
+  color: #C9FD02;
+}
+.allCardsWrap{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.cardMainCon{
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 400px;
+}
+.circleCon{
+  display: flex;
+  align-items: center;
+}
+.circle{
+  padding: 10px;
+  background-color: #C9FD02;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.circleText{
+  color: white;
+  font-size: 30px;
+}
+.name{
+  margin-left: 1rem;
+  font-size: 20px;
+}
+.fontSize{
+  font-size: 17px;
+}
+.fontWeight{
+  font-weight: bold;
+}
+.button{
+  height: 40px;
+  width: 100%;
+  background-color: #e84646;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.button:hover{
+  background-color: rgb(220, 38,38);
+}
